@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE categories
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
+<categories>
+    <category id="legal" name="Юридична інформація" order="1"/>
+    <category id="politek" name="ПП «Політек-СОФТ»" order="2"/>
+    <category id="institutions" name="Закладам освіти" order="3"/>
+</categories>
