@@ -1,0 +1,53 @@
+/* Disable user select and drag capabilities */
+:not(input):not(textarea):not(pre):not(code):not(.selectable),
+:not(input):not(textarea):not(pre):not(code):not(.selectable)::after,
+:not(input):not(textarea):not(pre):not(code):not(.selectable)::before {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+}
+
+[data-md-color-scheme="unisched-light"] {
+    --md-primary-fg-color: #212121;
+    --md-accent-fg-color: #212121;
+    --md-primary-fg-color--dark: #151F6D;
+    --md-default-fg-color--light: #212121;
+    --md-footer-bg-color: #212121;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #BBDEFB !important;
+    --md-typeset-a-color: #BBDEFB !important;
+    --md-accent-fg-color: #BBDEFB;
+    --md-default-bg-color: #212121;
+    --md-default-fg-color--light: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold !important;
+}
+
+div.grid.cards ul li {
+    border-radius: 5px !important;
+}
+
+.md-button {
+    border-radius: 5px !important;
+    border: 1px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    margin-right: 10px !important;
+}
+[data-md-color-scheme="slate"] .md-button:hover,
+[data-md-color-scheme="slate"] .md-button:active {
+    color: var(--md-default-bg-color) !important;
+}
+[data-md-color-scheme="slate"] .md-button.md-button--primary {
+    color: var(--md-default-bg-color) !important;
+}
