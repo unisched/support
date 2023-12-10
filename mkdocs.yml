@@ -11,6 +11,8 @@ nav:
     - 'legal/terms.md'
     - 'legal/privacy.md'
     - 'legal/data-deletion.md'
+  - Історія випусків: 'https://changelog.unisched.download/'
+  - Статус працездатності: 'https://status.unisched.download/'
 
 theme:
   name: material
