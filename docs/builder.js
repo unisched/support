@@ -33,13 +33,6 @@ let SplashComponent = {
     }
 }
 
-let ChatComponent = {
-    view: function () {
-        return m("a", { href: "#!/hello" }, "Enter!")
-    }
-}
-
 m.route(root, "/splash", {
-    "/splash": SplashComponent,
-    "/chat": ChatComponent,
+    "/splash": SplashComponent
 });
